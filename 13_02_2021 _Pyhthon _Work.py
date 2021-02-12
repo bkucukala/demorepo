@@ -6,6 +6,7 @@
 # \t : means tab mark,
 # \b : means backspace. It moves the cursor one character to the left.
 # Look at these examples carefully:
+
 text1 = 'it'
 text2 = 'easy'
 print(text1 + '\'s very '  + text2)
