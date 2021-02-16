@@ -1,3 +1,17 @@
+print({0} and False or [])
+
+var1 = "sleep"
+var2 = "eat"
+var3 = "better"
+var4 = "life"
+sentence = f"The less you {var1} and {var2}, the {var3} your {var4} will be."
+print(sentence)
+
+city = "SARAJEVO"
+print (f"I live in {city.capitalize()}.")
+
+
+
 text1 = "I bought"
 text2 = "kg. of apple this morning"
 amount = 6
@@ -6,7 +20,8 @@ print(text1, amount, text2)
 print("I bought", 6, "kg. of apple this morning")
 print("I bought " + "6 " + "kg. of apple this morning")
 print(text3)
-
+city = "SARAJEVO"
+print (f"I live in {city.capitalize()} .")
 
 print("we are", "\boosting our", "\brotherhood")
 print('it\'s funny to learn Python') 
