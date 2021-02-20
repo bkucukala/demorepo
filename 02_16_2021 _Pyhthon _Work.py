@@ -54,6 +54,7 @@ print(my_list)
 grocer = ["banana", ["orange", ["apple", "eggplant", "melon", "spinach", "cheese", "leek" ], "water"], "mandarin"]
 print(grocer[1][1][1::2])
 
+
 flowers = [["jasmine", ["lavender", "rose"], "tulip"]]
 colors = ["red", ("blue", ["yellow", "green"]), "pink"]
 text =  "My two favorite flowers are {[0][2]} and {[0][1][1]}, two favorite colors are {[1][0]} and {[1][1][1]}.".format(flowers,flowers,colors,colors)
@@ -62,5 +63,16 @@ print(text)
 text =  "My two favorite flowers are {0[0][2]} and {0[0][1][1]}, two favorite colors are {1[1][0]} and {1[1][1][1]}.".format(flowers,colors)
 print(text)
 
-text="upper"
-print(* text)
+Sentence="I love everbody in New York"
+print(Sentence.capitalize().upper())
+
+Sentence="Sodome and Gomore"
+print(Sentence.replace("o","0"))
+text="tyou can learn mor thind pleasez"
+print(text.strip("tz").upper())
+list1=["h","a","p","p","y"]
+word="happy"
+list2=list(word)
+print(list1)
+print(list2)
+

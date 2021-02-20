@@ -126,6 +126,7 @@ print(numbers[2:5])  # we get the elements from index=2 to index=5(5 is not incl
 count = list(range(11))
 print(count)
 
+
 print(count[0:11:2])
 animals = ['elephant', 'bear', 'fox', 'wolf', 'rabbit', 'deer', 'giraffe']
 print(animals[:])  # all elements of the list
@@ -171,7 +172,7 @@ odd_no = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(odd_no[7:3])
 print(odd_no[7:3:-1])
 print(odd_no[2:6:-1])
-
+print(odd_no[:])
 
 
 
